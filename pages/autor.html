@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Call of the Night | Contacto </title>
+    <title> Call of the Night | Autor </title>
     <link rel="shortcut icon" href="img/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body class="bodyClass">
-
   <header>
     <nav>
         <ul>
-            <li><a href="index.html"> INICIO </a></li>
+            <li><a href="../index.html"> INICIO </a></li>
             <li><a href="autor.html"> AUTOR </a></li>
             <li><a href="episodios.html"> EPISODIOS </a></li>
             <li><a href="galeria.html"> GALERÍA </a></li>
@@ -23,71 +22,57 @@
       </nav>
 </header>
 
-    <main>
+    <main class="infoAutor">
 
-        <form action="action_page.php">
-
-            <div class="container">
-            
-              <h2>SUSCRÍBETE A NUESTRO NEWSLETTER</h2>
-              <p>¡Se viene una segunda temporada! Suscríbete para no perderte ninguna novedad. </p>
-
+      <div class="main">
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              
+              <div class="card_image"><img src="../img/banner.jpg" alt="Dibujo de Call of the Night"></div>
+              <div class="card_content">
+                <h1 class="card_title"> Kotoyama </h1>
+                <div class="card_text">
+                  <p>Kotoyama es un mangaka japonés y es mejor conocido por ser el creador de las series de manga Dagashi Kashi y Yofukashi no Uta. Cuando estaba en la escuela secundaria, se volvió adicto al manga de Katsuhiro Ōtomo debido a la influencia de su padre. Comenzó a dibujar manga alrededor de los 20 años. </p>
+                </div>
+              </div>
             </div>
-          
-            <div class="container" style="background-color:black">
+          </li>
 
-              <input type="text" placeholder="Nombre" name="name" required>
-              <input type="text" placeholder="Dirección de Email" name="mail" required>
-
-              <label>
-                <input type="checkbox" checked="checked" name="subscribe"> Recibir notificaciones diarias
-              </label>
-
-            </div>
-          
-            <div class="container">
-
-              <input type="submit" value="Enviar">
-
-            </div>
-
-        </form>
-
-      </main>
+    </main>
 
     <div class="container">
 
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
 
             <div class="col-md-4 d-flex align-items-center">
-
-                <a href="index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                  <img src="img/logo.png" class="bi" width="90" height="30"/>
+                <a href="../index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <img src="../img/logo.png" class="bi" width="90" height="30"/>
                 </a>
             
-                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
+            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
 
             </div>
       
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              
               <li class="ms-3">
                 <a class="text-body-secondary" href="https://twitter.com/noitamina2010" target="_blank"">
-                  <img src="img/x.png" alt="X" class="logoFooter">
+                  <img src="../img/x.png" alt="X" class="logoFooter">
                 </a>
               </li>
-
               <li class="ms-3">
                 <a class="text-body-secondary" href="https://www.youtube.com/@noitaminaofficial" target="_blank">
-                  <img src="img/youtube.png" alt="YouTube" class="logoFooter">
+                  <img src="../img/youtube.png" alt="YouTube" class="logoFooter">
                 </a>
               </li>
             
             </ul>
 
         </footer>
-        
+
     </div>
-     
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
