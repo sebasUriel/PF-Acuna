@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Call of the Night | Inicio </title>
+    <meta name="title" content="Call of the Night | Inicio" />
+    <meta name="description" content="Incapaz de dormir o encontrar una verdadera satisfacción en su vida diaria, Kō Yamori deja de ir a la escuela y comienza a deambular por las calles por la noche." />
+    <meta name="keyword" content="call of the night, inicio, argumento, anime, manga">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/sebasUriel/PF-Acuna.git" />
+    <meta property="og:title" content="Call of the Night | Inicio" />
+    <meta property="og:description" content="Incapaz de dormir o encontrar una verdadera satisfacción en su vida diaria, Kō Yamori deja de ir a la escuela y comienza a deambular por las calles por la noche." />
+    <meta property="og:image" content="img/poster.jpg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://github.com/sebasUriel/PF-Acuna.git" />
+    <meta property="twitter:title" content="Call of the Night | Inicio" />
+    <meta property="twitter:description" content="Incapaz de dormir o encontrar una verdadera satisfacción en su vida diaria, Kō Yamori deja de ir a la escuela y comienza a deambular por las calles por la noche." />
+    <meta property="twitter:image" content="img/poster.jpg" />
+
     <link rel="shortcut icon" href="img/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -12,15 +27,41 @@
 <body class="bodyClass">
 
     <header>
-        <nav>
-            <ul>
-                <li><a href="index.html"> INICIO </a></li>
-                <li><a href="pages/autor.html"> AUTOR </a></li>
-                <li><a href="pages/episodios.html"> EPISODIOS </a></li>
-                <li><a href="pages/galeria.html"> GALERÍA </a></li>
-                <li><a href="pages/contacto.html"> CONTACTO </a></li>
-              </ul>
-          </nav>
+        <header>
+            <nav class="navbar bg-violeta navbar-expand-md  position-relative z-3" data-bs-theme="dark">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"> Call of the Night </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                  aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header bg-violeta">
+                    
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body bg-violeta">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"> INICIO </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/autor.html"> AUTOR </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/episodios.html"> EPISODIOS </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/galeria.html"> GALERÍA </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html"> CONTACTO </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
     </header>
 
     <main>
@@ -53,7 +94,7 @@
                   <img src="img/logo.png" class="bi" width="90" height="30"/>
                 </a>
     
-                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
+                <span class="mb-3 mb-md-0 text-body-secondary">&copy; Sebastian Acuña | Call of the Night</span>
 
             </div>
       
